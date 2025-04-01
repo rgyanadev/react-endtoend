@@ -1,6 +1,11 @@
 import { useState } from 'react'
 
+/*
+  In this project we will have Color specific buttons & on click of that button that specific colors will display in the screen.
+*/
+
 function App() {
+  // First we will take useState hooks to store color in color state & setColor as setStateAction to modify color based on click; 
   const [color, setColor] = useState("black");
 
   /*
